@@ -46,11 +46,11 @@ Data Acquisition & Pre-processing
 
 | Lecture | video | slides |
 | ------ | ---- | --- |
-| MM01. Intro to COMS20111 - very fishy | [[Stream link]](https://web.microsoftstream.com/video/ac0feac5-3cce-4126-abd3-4238f43b7a84) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM01.pdf) |
-| MM02. Intro - Part 2 - example projects | [[Stream link]](https://web.microsoftstream.com/video/cd65111b-9d1e-45db-ad21-d01198d9aafd) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM02.pdf) |
-| MM03. Data Acquisition - Sampling - Acquisition  |  [[Stream link]](https://web.microsoftstream.com/video/23599d61-e2dd-4d25-ae33-c93ccf8ddc3e) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM03.pdf) |
-| MM04. Data Characteristics - Distance Measures  | [[Stream link]](https://web.microsoftstream.com/video/5ca552a0-e474-4dcb-b638-ea01e3e41d8f) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM04.pdf) |
-| MM05. Data Characteristics - Covariance - Eigen Analysis - Outliers | [[Stream link]](https://web.microsoftstream.com/video/7c423f3b-6aff-4b44-a1b7-5305c662c81b) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM05.pdf) |
+| MM01. Intro to COMS20111 - very fishy (14:44) | [[Stream link]](https://web.microsoftstream.com/video/ac0feac5-3cce-4126-abd3-4238f43b7a84) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM01.pdf) |
+| MM02. Intro - Part 2 - example projects (12:19) | [[Stream link]](https://web.microsoftstream.com/video/cd65111b-9d1e-45db-ad21-d01198d9aafd) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM02.pdf) |
+| MM03. Data Acquisition - Sampling - Acquisition (10:38) |  [[Stream link]](https://web.microsoftstream.com/video/23599d61-e2dd-4d25-ae33-c93ccf8ddc3e) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM03.pdf) |
+| MM04. Data Characteristics - Distance Measures  (15:55) | [[Stream link]](https://web.microsoftstream.com/video/5ca552a0-e474-4dcb-b638-ea01e3e41d8f) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM04.pdf) |
+| MM05. Data Characteristics - Covariance - Eigen Analysis - Outliers (20:50)| [[Stream link]](https://web.microsoftstream.com/video/7c423f3b-6aff-4b44-a1b7-5305c662c81b) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM05.pdf) |
 | Problem Sheet  **Updated - New Q 12/02/21**  | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet01.pdf) |
 | Problem Sheet  **Updated - New Q/A 12/02/21** | Answers          | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet01-Answers.pdf) |
 | Q&A Session  | [[Stream link]](https://web.microsoftstream.com/video/fe4adfe4-4369-4321-9547-64bcd85a0dfb) | - |
@@ -114,9 +114,9 @@ I have printed the Notebooks as pdfs.  Note that this really doesn't work well, 
 #### Week 19: 15/03/2021 (Majid)
 | Lecture | video | slides |
 | ------ | ---- | --- |
-| MM06. Signals & Frequencies | [[Stream link]] | [[pdf]] |
-| MM07. Fourier Series | [[Stream link]] | [[pdf]] |
-| MM08. 1D Fourier Transform | [[Stream link]] | [[pdf]] |
+| MM06. Signals & Frequencies (13:26) | [[Stream link]] | [[pdf]] |
+| MM07. Fourier Series (10:28) | [[Stream link]] | [[pdf]] |
+| MM08. 1D Fourier Transform  (17:18)| [[Stream link]] | [[pdf]] |
 | Problem Sheet MM02  | Self/Group study | [[pdf]] |
 | Problem Sheet MM02  | Answers          | [[pdf]] |
 | Q&A Session  | [[Stream link]] | - |
