@@ -112,29 +112,29 @@ I have printed the Notebooks as pdfs.  Note that this really doesn't work well, 
 
 
 #### Week 19: 15/03/2021 (Majid)
-| Lecture | video | slides |
-| ------ | ---- | --- |
-| MM06. Signals & Frequencies (13:26) | [[Stream link]] | [[pdf]] |
-| MM07. Fourier Series (10:28) | [[Stream link]] | [[pdf]] |
-| MM08. 1D Fourier Transform  (17:18)| [[Stream link]] | [[pdf]] |
-| Problem Sheet MM02  | Self/Group study | [[pdf]] |
-| Problem Sheet MM02  | Answers          | [[pdf]] |
-| Q&A Session  | [[Stream link]] | - |
+| Lecture | Duration | video | slides |
+| ------ | ---- | --- | --- |
+| MM06. Signals & Frequencies | (13:26) | [[Stream link]] | [[pdf]] |
+| MM07. Fourier Series | (10:28) | [[Stream link]] | [[pdf]] |
+| MM08. 1D Fourier Transform  | (17:18)| [[Stream link]] | [[pdf]] |
+| Problem Sheet MM02  | - | Self/Group study | [[pdf]] |
+| Problem Sheet MM02  | - | Answers          | [[pdf]] |
+| Q&A Session  | - | [[Stream link]] | - |
 
 #### Week 20: 22/03/2021 (Majid)
-| Lecture | video | slides |
-| ------ | ---- | --- |
-| MM09. 2D Fourier Transform | [[Stream link]] | [[pdf]] |
-| MM10. Frequency Features | [[Stream link]] | [[pdf]] |
-| Problem Sheet MM03  | Self/Group study | [[pdf]] |
-| Problem Sheet MM03  | Answers          | [[pdf]] |
-| Q&A Session  | [[Stream link]] | - |
+| Lecture | Duration | video | slides |
+| ------ | ---- | --- | --- |
+| MM09. 2D Fourier Transform | - | [[Stream link]] | [[pdf]] |
+| MM10. Frequency Features | - | [[Stream link]] | [[pdf]] |
+| Problem Sheet MM03  | - | Self/Group study | [[pdf]] |
+| Problem Sheet MM03  | - | Answers          | [[pdf]] |
+| Q&A Session  | - | [[Stream link]] | - |
 
 #### Week 20: 29/03/2021 (Majid)
-| Lecture | video | slides |
-| ------ | ---- | --- |
-| MM11. More on Features | [[Stream link]] | [[pdf]] |
-| MM12. Convolutions | [[Stream link]] | [[pdf]] |
-| Problem Sheet MM04  | Self/Group study | [[pdf]] |
-| Problem Sheet MM04  | Answers          | [[pdf]] |
-| Q&A Session  | [[Stream link]] | - |
+| Lecture | Duration | video | slides |
+| ------ | ---- | --- | --- |
+| MM11. More on Features | - | [[Stream link]] | [[pdf]] |
+| MM12. Convolutions | - | [[Stream link]] | [[pdf]] |
+| Problem Sheet MM04  | - | Self/Group study | [[pdf]] |
+| Problem Sheet MM04  | - | Answers          | [[pdf]] |
+| Q&A Session  | - | [[Stream link]] | - |
