@@ -42,8 +42,6 @@ Important: these are not pre-requisites!  Please don't try to look at all of the
 ## Weekly lecture material
 #### Week 13: 01/02/2021 (Majid)
 
-Data Acquisition & Pre-processing
-
 | Lecture | Duration | video | slides |
 | ------ | ---- | --- | --- |
 | MM01. Intro to COMS20111 - very fishy | 14:44 | [[Stream link]](https://web.microsoftstream.com/video/ac0feac5-3cce-4126-abd3-4238f43b7a84) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM01.pdf) |
@@ -114,10 +112,10 @@ I have printed the Notebooks as pdfs.  Note that this really doesn't work well, 
 #### Week 19: 15/03/2021 (Majid)
 | Lecture | Duration | video | slides |
 | ------ | ---- | --- | --- |
-| MM06. Signals & Frequencies | 13:26 | [[Stream link]] | [[pdf]] |
-| MM07. Fourier Series | 10:28 | [[Stream link]] | [[pdf]] |
-| MM08. 1D Fourier Transform  | 17:18| [[Stream link]] | [[pdf]] |
-| Problem Sheet MM02  | - | Self/Group study | [[pdf]] |
+| MM06. Signals & Frequencies | 13:26 | [[Stream link]] (https://web.microsoftstream.com/video/14b5252d-f4aa-4caf-8f75-9326325ddc38)| [[pdf]] (https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM06.pdf)|
+| MM07. Fourier Series | 10:28 | [[Stream link]] (https://web.microsoftstream.com/video/f35ba189-8d81-48be-9b02-c0d6530d8e44) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM07.pdf) |
+| MM08. 1D Fourier Transform  | 17:18| [[Stream link]] (https://web.microsoftstream.com/video/14e4fee4-d38f-4225-9a8a-46b2f8787150) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM08.pdf) |
+| Problem Sheet MM02  | - | Self/Group study | [[pdf]] (https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheetMM02.pdf) |
 | Problem Sheet MM02  | - | Answers          | [[pdf]] |
 | Q&A Session  | - | [[Stream link]] | - |
 
