@@ -96,6 +96,7 @@ Important: these are not pre-requisites!  Please don't try to look at all of the
 | 3. EM for Gaussian mixture models| [[Stream link]](https://web.microsoftstream.com/video/0c8216e8-bdd3-4f3e-b713-29021e7ec950) | [[notebook 5]](https://github.com/LaurenceA/COMS20011_2020/blob/main/notebooks/part_5_clustering.ipynb) |
 | 4. Objective for EM [Non-examinable]| [[Stream link]](https://web.microsoftstream.com/video/2816e646-b599-4593-b679-d60bb6d1f47b) | [[notebook 5]](https://github.com/LaurenceA/COMS20011_2020/blob/main/notebooks/part_5_clustering.ipynb) |
 | Problem Sheet W18 | | [[notebook]](https://github.com/LaurenceA/COMS20011_2020/blob/main/notebooks/Question_Sheet_3_clustering.ipynb) |
+| Q&A Session (lots about CW!) | [[Stream link]](https://web.microsoftstream.com/video/7f37470c-bfb4-42fd-bab6-f48a921aaa6d) | - |
 
 
 
