@@ -115,7 +115,7 @@ I have printed the Notebooks as pdfs.  Note that this really doesn't work well, 
 | MM06. Signals & Frequencies | 13:26 | [[Stream link]](https://web.microsoftstream.com/video/14b5252d-f4aa-4caf-8f75-9326325ddc38)| [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM06.pdf)|
 | MM07. Fourier Series | 10:28 | [[Stream link]](https://web.microsoftstream.com/video/f35ba189-8d81-48be-9b02-c0d6530d8e44) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM07.pdf) |
 | MM08. 1D Fourier Transform  | 17:18| [[Stream link]](https://web.microsoftstream.com/video/14e4fee4-d38f-4225-9a8a-46b2f8787150) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM08.pdf) |
-| Problem Sheet MM02  | - | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheetMM02.pdf) |
+| Problem Sheet MM02  | - | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM02.pdf) |
 | Problem Sheet MM02  | - | Answers          | [[pdf]] |
 | Q&A Session  | - | [[Stream link]] | - |
 
