@@ -117,19 +117,19 @@ I have printed the Notebooks as pdfs.  Note that this really doesn't work well, 
 | MM07. Fourier Series | 10:28 | [[Stream link]](https://web.microsoftstream.com/video/f35ba189-8d81-48be-9b02-c0d6530d8e44) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM07.pdf) |
 | MM08. 1D Fourier Transform  | 17:18| [[Stream link]](https://web.microsoftstream.com/video/14e4fee4-d38f-4225-9a8a-46b2f8787150) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM08.pdf) |
 | Problem Sheet MM02  | - | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM02.pdf) |
-| Problem Sheet MM02  | - | Answers          | [[pdf]] |
-| Q&A Session  | - | [[Stream link]] | - |
+| Problem Sheet MM02  | - | Answers  [[sines.py]](sines.py)  | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM02-Solutions.pdf) |
+| Q&A Session  | - | [[Stream link]](https://web.microsoftstream.com/video/64299869-0bed-4d8d-88a8-afe7f896a531) | - |
 
 #### Week 20: 22/03/2021 (Majid)
 | Lecture | Duration | video | slides |
 | ------ | ---- | --- | --- |
-| MM09. 2D Fourier Transform | - | [[Stream link]] | [[pdf]] |
-| MM10. Frequency Features | - | [[Stream link]] | [[pdf]] |
-| Problem Sheet MM03  | - | Self/Group study | [[pdf]] |
+| MM09. 2D Fourier Transform | - | [[Stream link]](https://web.microsoftstream.com/video/d26f12b1-6e6e-45aa-922e-1bc3b4576109) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM09.pdf) |
+| MM10. Frequency Features | - | [[Stream link]](https://web.microsoftstream.com/video/2f3975e9-45f0-49cb-bbc9-ab130328861d) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM10.pdf) |
+| Problem Sheet MM03  | - | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM03.pdf) |
 | Problem Sheet MM03  | - | Answers          | [[pdf]] |
 | Q&A Session  | - | [[Stream link]] | - |
 
-#### Week 20: 29/03/2021 (Majid)
+#### Week 21: 29/03/2021 (Majid)
 | Lecture | Duration | video | slides |
 | ------ | ---- | --- | --- |
 | MM11. More on Features | - | [[Stream link]] | [[pdf]] |
