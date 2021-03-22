@@ -127,14 +127,17 @@ I have printed the Notebooks as pdfs.  Note that this really doesn't work well, 
 | MM10. Frequency Features | - | [[Stream link]](https://web.microsoftstream.com/video/2f3975e9-45f0-49cb-bbc9-ab130328861d) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM10.pdf) |
 | Problem Sheet MM03  | - | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM03.pdf) |
 | Problem Sheet MM03  | - | Answers          | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM03-Solutions.pdf) |
-| Q&A Session  | - | [[Stream link]] | Easter Break |
+| Q&A Session  | - | [[Stream link]] | After Easter Break |
 
 #### Week 21: 19/04/2021 (Majid)   
-#### Week 21: The videos and problem sheet will be added before the Easter Break in case it's helpful to have more time on this final material for Week 21.
+#### Week 21: The videos and problem sheet are added now in case it's helpful to have more time on this final material for Week 21.
 | Lecture | Duration | video | slides |
 | ------ | ---- | --- | --- |
-| MM11. More on Features | - | [[Stream link]] | [[pdf]] |
-| MM12. Convolutions | - | [[Stream link]] | [[pdf]] |
-| Problem Sheet MM04  | - | Self/Group study | [[pdf]] |
-| Problem Sheet MM04  | - | Answers          | [[pdf]] |
-| Q&A Session  | - | [[Stream link]] | - |
+| MM11. More on Features | - | [[Stream link]](https://web.microsoftstream.com/video/7295f9cb-a6d3-497b-8081-ed4e3a7b41ad) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM11.pdf) |
+| MM12. Convolutions | - | [[Stream link]](https://web.microsoftstream.com/video/249e6264-e6d5-4f8e-9280-1445e715978e) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM12.pdf) |
+| Optional Playthings | *** | [[sobel.py]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/sobel.py) | [[FFT.py]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/FFT.py) |
+| Problem Sheet MM04  | - | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM04.pdf) |
+| Problem Sheet MM04  | - | Answers          | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM04-Solutions.pdf)|
+| Q&A Session  | - | [[Stream link]] | After Easter Break  |
+
+*** The image gif files for the Optional Playthings are in the ProblemSheets folder (see above).
