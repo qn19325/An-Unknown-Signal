@@ -117,7 +117,7 @@ I have printed the Notebooks as pdfs.  Note that this really doesn't work well, 
 | MM07. Fourier Series | 10:28 | [[Stream link]](https://web.microsoftstream.com/video/f35ba189-8d81-48be-9b02-c0d6530d8e44) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM07.pdf) |
 | MM08. 1D Fourier Transform  | 17:18| [[Stream link]](https://web.microsoftstream.com/video/14e4fee4-d38f-4225-9a8a-46b2f8787150) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM08.pdf) |
 | Problem Sheet MM02  | - | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM02.pdf) |
-| Problem Sheet MM02  | - | Answers  [[sines.py]](https://github.com/LaurenceA/COMS20011_2020/blob/main/problemsheets/sines.py)  | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM02-Solutions.pdf) |
+| Problem Sheet MM02  | - | Answers  [[sines.py]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/sines.py)  | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM02-Solutions.pdf) |
 | Q&A Session  | - | [[Stream link]](https://web.microsoftstream.com/video/64299869-0bed-4d8d-88a8-afe7f896a531) | - |
 
 #### Week 20: 22/03/2021 (Majid)
