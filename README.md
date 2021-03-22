@@ -126,10 +126,10 @@ I have printed the Notebooks as pdfs.  Note that this really doesn't work well, 
 | MM09. 2D Fourier Transform | - | [[Stream link]](https://web.microsoftstream.com/video/d26f12b1-6e6e-45aa-922e-1bc3b4576109) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM09.pdf) |
 | MM10. Frequency Features | - | [[Stream link]](https://web.microsoftstream.com/video/2f3975e9-45f0-49cb-bbc9-ab130328861d) | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/slides/COMS20011-MM10.pdf) |
 | Problem Sheet MM03  | - | Self/Group study | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM03.pdf) |
-| Problem Sheet MM03  | - | Answers          | [[pdf]] |
-| Q&A Session  | - | [[Stream link]] | - |
+| Problem Sheet MM03  | - | Answers          | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM03-Solutions.pdf) |
+| Q&A Session  | - | [[Stream link]] | Easter Break |
 
-#### Week 21: 29/03/2021 (Majid)
+#### Week 21: 29/03/2021 (Majid)   The videos and problem sheet will be added before the Easter Break.
 | Lecture | Duration | video | slides |
 | ------ | ---- | --- | --- |
 | MM11. More on Features | - | [[Stream link]] | [[pdf]] |
