@@ -129,7 +129,8 @@ I have printed the Notebooks as pdfs.  Note that this really doesn't work well, 
 | Problem Sheet MM03  | - | Answers          | [[pdf]](https://github.com/LaurenceA/COMS20011_2020/tree/main/problemsheets/ProblemSheet-MM03-Solutions.pdf) |
 | Q&A Session  | - | [[Stream link]] | Easter Break |
 
-#### Week 21: 29/03/2021 (Majid)   The videos and problem sheet will be added before the Easter Break.
+#### Week 21: 19/04/2021 (Majid)   
+#### Week 21: The videos and problem sheet will be added before the Easter Break in case it's helpful to have more time on this final material for Week 21.
 | Lecture | Duration | video | slides |
 | ------ | ---- | --- | --- |
 | MM11. More on Features | - | [[Stream link]] | [[pdf]] |
