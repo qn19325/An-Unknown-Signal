@@ -25,10 +25,14 @@ def view_data_segments(xs, ys, a):
             y = coefficients[1] * x + coefficients[0]
             plt.plot(x, y)
         elif len(coefficients) == 3:
-            y = coefficients[2] * np.sin(x) + coefficients[1] * np.cos(x) + coefficients[0]
+            # y = coefficients[2] * np.sin(x) + coefficients[1] * np.cos(x) + coefficients[0]
+            y = coefficients[2] * (x**2) + coefficients[1] * x + coefficients[0]
             plt.plot(x, y)
-        else:
+        elif len(coefficients) == 4:
             y = coefficients[3] * x**3 + coefficients[2] * x**2 + coefficients[1] * x + coefficients[0]
+            plt.plot(x,y)
+        else:
+            y = coefficients[8] * (x**8) + coefficients[7] * x**7 + coefficients[6] * x**6 + coefficients[5] * x**5 + coefficients[4] * x**4 + coefficients[3] * x**3 + coefficients[2] * x**2 + coefficients[1] * x + coefficients[0]
             plt.plot(x,y)
     plt.show()
 
@@ -47,7 +51,11 @@ def linear_least_squares(xs, ys):
     return A
 
 def non_linear_least_squares(xs, ys):
-    X = np.column_stack((np.ones(xs.shape), xs, xs**2, xs**3))
+    order = 3
+    X = np.ones(xs.shape)
+    for i in range(order):
+        x = xs**(i+1)
+        X = np.column_stack((X, x))
     A = np.linalg.inv(X.T.dot(X)).dot(X.T).dot(ys)
     return A
 
@@ -65,7 +73,8 @@ def sum_squared_error(coefficients, xs, ys):
             sum_squared_error = sum_squared_error + ((actual_y - fitted_y)**2)
     elif len(coefficients) == 3:
         for idx, val in enumerate(xs):
-            fitted_y = y = coefficients[2] * np.sin(val) + coefficients[1] * np.cos(val) + coefficients[0]
+            # fitted_y = coefficients[2] * np.sin(val) + coefficients[1] * np.cos(val) + coefficients[0]
+            fitted_y = coefficients[2] * (val**2) + coefficients[1] * val + coefficients[0]
             actual_y = ys[idx]
             sum_squared_error = sum_squared_error + ((actual_y - fitted_y)**2)
     elif len(coefficients) == 4:
@@ -73,11 +82,16 @@ def sum_squared_error(coefficients, xs, ys):
             fitted_y = coefficients[3] * (val**3) + coefficients[2] * (val**2) + coefficients[1] * (val) + coefficients[0]
             actual_y = ys[idx]
             sum_squared_error = sum_squared_error + ((actual_y - fitted_y)**2)
+    else:
+        for idx, val in enumerate(xs):
+            fitted_y = coefficients[8] * (val**8) + coefficients[7] * (val**7) + coefficients[6] * (val**6) + coefficients[5] * (val**5) + coefficients[4] * (val**4) + coefficients[3] * (val**3) + coefficients[2] * (val**2) + coefficients[1] * (val) + coefficients[0]
+            actual_y = ys[idx]
+            sum_squared_error = sum_squared_error + ((actual_y - fitted_y)**2)
     return sum_squared_error
 
 def cross_validation(xs, ys, k):
     data = np.column_stack((xs, ys))
-    np.random.shuffle(data)
+    # np.random.shuffle(data)
     avg = len(data) / float(k)
     split_data = []
     last = 0.0
@@ -116,6 +130,7 @@ def cross_validation(xs, ys, k):
 filename = sys.argv[1]
 x, y = load_points_from_file(filename)
 num_segments, xs, ys = split_into_segment(x, y)
+total_error = 0
 coefficients = []
 for i in range(num_segments):
     linear_ls = linear_least_squares(xs[i], ys[i])
@@ -123,22 +138,22 @@ for i in range(num_segments):
     unknown_ls = unknown_func_least_squares(xs[i], ys[i])
 
     # linear_sse = sum_squared_error(linear_ls, xs[i], ys[i])
-    # non_linear_sse = sum_squared_error(non_linear_ls, xs[i], ys[i])
+    # print(sum_squared_error(non_linear_ls, xs[i], ys[i]))
     # unknown_sse = sum_squared_error(unknown_ls, xs[i], ys[i])
 
-    linear_errors, non_linear_errors, unknown_errors = cross_validation(xs[i], ys[i], 3)
+    linear_errors, non_linear_errors, unknown_errors = cross_validation(xs[i], ys[i], 20)
 
-    print(linear_errors)
-    print(non_linear_errors)
-    print(unknown_errors)
+    # print(linear_errors)
+    # print(non_linear_errors)
+    # print(unknown_errors)
 
     linear_sse = np.mean(linear_errors)
     non_linear_sse = np.mean(non_linear_errors)
     unknown_sse = np.mean(unknown_errors)
 
-    print(linear_sse)
-    print(non_linear_sse)
-    print(unknown_sse)
+    # print(linear_sse)
+    # print(non_linear_sse)
+    # print(unknown_sse)
     
     if(linear_sse < non_linear_sse and linear_sse < unknown_sse):
         coefficients.append(linear_ls)
@@ -146,6 +161,10 @@ for i in range(num_segments):
         coefficients.append(non_linear_ls)
     else:
         coefficients.append(unknown_ls)
+    # coefficients.append(non_linear_ls)
 
-
+    total_error = total_error + min(linear_sse, non_linear_sse, unknown_sse)
+    # total_error = total_error + non_linear_sse
+print(coefficients)
+print('Total Error -', total_error)
 view_data_segments(x, y, coefficients)
