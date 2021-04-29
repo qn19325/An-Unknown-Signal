@@ -63,23 +63,23 @@ def unknown_func_least_squares(xs, ys):
 
 ### SUM SQUARED ERROR ###
 def sum_squared_error(f, coefficients, xs, ys):
-    sum_squared_error = 0
+    sum_square_error = 0
     if f == 0:
         for idx, val in enumerate(xs):
             fitted_y = coefficients[1] * val + coefficients[0]
             actual_y = ys[idx]
-            sum_squared_error = sum_squared_error + ((actual_y - fitted_y)**2)
+            sum_square_error = sum_square_error + ((actual_y - fitted_y)**2)
     elif f == 1:
         for idx, val in enumerate(xs):
             fitted_y = coefficients[3] * (val**3) + coefficients[2] * (val**2) + coefficients[1] * (val) + coefficients[0]
             actual_y = ys[idx]
-            sum_squared_error = sum_squared_error + ((actual_y - fitted_y)**2)
+            sum_square_error = sum_square_error + ((actual_y - fitted_y)**2)
     elif f == 2:
         for idx, val in enumerate(xs):
             fitted_y = coefficients[1] * np.sin(val) + coefficients[0]
             actual_y = ys[idx]
-            sum_squared_error = sum_squared_error + ((actual_y - fitted_y)**2)
-    return sum_squared_error
+            sum_square_error = sum_square_error + ((actual_y - fitted_y)**2)
+    return sum_square_error
 
 ### CROSS VALIDATION ###
 def cross_validation(xs, ys, k):
@@ -107,13 +107,13 @@ def cross_validation(xs, ys, k):
         non_linear_ls = non_linear_least_squares(training[:,0], training[:,1])
         unknown_ls = unknown_func_least_squares(training[:,0], training[:,1])
 
-        linear_sse = sum_squared_error(0, linear_ls, test[:,0], test[:,1])
-        non_linear_sse = sum_squared_error(1, non_linear_ls, test[:,0], test[:,1])
-        unknown_sse = sum_squared_error(2, unknown_ls, test[:,0], test[:,1])
+        linear_Cv = sum_squared_error(0, linear_ls, test[:,0], test[:,1])
+        non_linear_Cv = sum_squared_error(1, non_linear_ls, test[:,0], test[:,1])
+        unknown_Cv = sum_squared_error(2, unknown_ls, test[:,0], test[:,1])
 
-        linear_error.append(linear_sse)
-        non_linear_error.append(non_linear_sse)
-        unknown_error.append(unknown_sse)
+        linear_error.append(linear_Cv)
+        non_linear_error.append(non_linear_Cv)
+        unknown_error.append(unknown_Cv)
 
     return linear_error, non_linear_error, unknown_error
     
@@ -131,36 +131,30 @@ for i in range(num_segments):
     non_linear_ls = non_linear_least_squares(xs[i], ys[i])
     unknown_ls = unknown_func_least_squares(xs[i], ys[i])
 
-    # linear_sse = sum_squared_error(linear_ls, xs[i], ys[i])
-    # print(sum_squared_error(non_linear_ls, xs[i], ys[i]))
-    # unknown_sse = sum_squared_error(unknown_ls, xs[i], ys[i])
+    linear_errors, non_linear_errors, unknown_errors = cross_validation(xs[i], ys[i], 10)
 
-    linear_errors, non_linear_errors, unknown_errors = cross_validation(xs[i], ys[i], 20)
-
-    # print(linear_errors)
-    # print(non_linear_errors)
-    # print(unknown_errors)
-
-    linear_sse = np.mean(linear_errors)
-    non_linear_sse = np.mean(non_linear_errors)
-    unknown_sse = np.mean(unknown_errors)
-
-    # print(linear_sse)
-    # print(non_linear_sse)
-    # print(unknown_sse)
+    linear_Cv = np.mean(linear_errors)
+    non_linear_Cv = np.mean(non_linear_errors)
+    unknown_Cv = np.mean(unknown_errors)
     
-    if(linear_sse < non_linear_sse and linear_sse < unknown_sse):
+    if(linear_Cv < non_linear_Cv and linear_Cv < unknown_Cv):
         coefficients.append(linear_ls)
         func_types.append(0)
-    elif(non_linear_sse < linear_sse and non_linear_sse < unknown_sse):
+        sse = sum_squared_error(0, linear_ls, xs[i], ys[i])
+        print('l', sse)
+        total_error = total_error +  sse
+    elif(non_linear_Cv < linear_Cv and non_linear_Cv < unknown_Cv):
         coefficients.append(non_linear_ls)
         func_types.append(1)
+        sse = sum_squared_error(1, non_linear_ls, xs[i], ys[i])
+        total_error = total_error + sse
     else:
         coefficients.append(unknown_ls)
         func_types.append(2)
+        sse = sum_squared_error(2, unknown_ls, xs[i], ys[i])
+        total_error = total_error + sse
 
-    total_error = total_error + min(linear_sse, non_linear_sse, unknown_sse)
-    # total_error = total_error + non_linear_sse
-print(coefficients)
 print('Total Error -', total_error)
-view_data_segments(x, y, coefficients, func_types)
+if(len(sys.argv)==3):
+      if(sys.argv[2] == '--plot'):
+          view_data_segments(x, y, coefficients, func_types)
