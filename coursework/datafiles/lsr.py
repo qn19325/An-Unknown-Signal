@@ -141,7 +141,6 @@ for i in range(num_segments):
         coefficients.append(linear_ls)
         func_types.append(0)
         sse = sum_squared_error(0, linear_ls, xs[i], ys[i])
-        print('l', sse)
         total_error = total_error +  sse
     elif(non_linear_Cv < linear_Cv and non_linear_Cv < unknown_Cv):
         coefficients.append(non_linear_ls)
