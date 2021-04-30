@@ -131,7 +131,7 @@ for i in range(num_segments):
     non_linear_ls = non_linear_least_squares(xs[i], ys[i])
     unknown_ls = unknown_func_least_squares(xs[i], ys[i])
 
-    linear_errors, non_linear_errors, unknown_errors = cross_validation(xs[i], ys[i], 10)
+    linear_errors, non_linear_errors, unknown_errors = cross_validation(xs[i], ys[i], 20)
 
     linear_Cv = np.mean(linear_errors)
     non_linear_Cv = np.mean(non_linear_errors)
