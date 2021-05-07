@@ -153,7 +153,7 @@ for i in range(num_segments):
         sse = sum_squared_error(2, unknown_ls, xs[i], ys[i])
         total_error = total_error + sse
 
-print('Total Error -', total_error)
+print(total_error)
 if(len(sys.argv)==3):
       if(sys.argv[2] == '--plot'):
           view_data_segments(x, y, coefficients, func_types)
